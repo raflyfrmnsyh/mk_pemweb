@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background: #0a5eb0;
+  width: 100%;
+  height: 120px;
+  position: relative;
+}
+
+header > img {
+  border-radius: 50%;
+  border: 8px solid #fff;
+  width: 180px;
+  position: absolute;
+  bottom: -86px;
+  transform: translateX(46%);
+}
+
+.container {
+  width: 90%;
+  margin: 86px auto;
+  display: flex;
+}
+
+aside {
+  width: 30%;
+  padding: 20px;
+}
+aside > .profile_name h4 {
+  font-size: 20px;
+  margin: 4px 0;
+}
+aside > .profile_name span {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+aside > .profile_bio {
+  margin: 16px 0px;
+}
+.profile_bio p {
+  line-height: 1.5;
+}
+
+aside > .profile_social a {
+  text-decoration: none;
+  color: #2a3335;
+  margin-right: 16px;
+  display: inline-block;
+}
+aside > .profile_social a:hover {
+  color: #0a5eb0;
+  transition: 0.3s;
+  font-weight: 400;
+  text-decoration: underline;
+}
+aside > footer {
+  margin-top: 100px;
+  opacity: 0.5;
+}
+
+main {
+  width: 70%;
+  padding: 20px;
+}
+
+main > .main_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main > .main_header a {
+  text-decoration: none;
+  color: #2a3335;
+  font-size: 14px;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #2a3335;
+  box-shadow: 4px 4px 1px #2a3335;
+}
+
+main > .main_header a:hover {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+main > .list_projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  padding: 16px 0;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+main > .list_projects > .card_project {
+  display: flex;
+  width: 48%;
+  height: 136px;
+  flex-direction: column;
+  padding: 16px;
+  gap: 4px;
+  border: 3px solid #2a3335;
+  border-radius: 8px;
+  box-shadow: 6px 6px 1px #2a3335;
+}
+
+.card_project > .card_header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_header a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #2a3335;
+  font-size: 18px;
+}
+
+.card_header a:hover {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+.card_header > .project_date {
+  font-size: 14px;
+
+  padding: 4px 8px;
+  background-color: #2a3335;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #2a3335;
+}
+
+.card_project > .card_body {
+  margin: 8px 0;
+}
+
+.card_body > p {
+  font-size: 16px;
+  opacity: 0.7;
+  font-size: 14px;
+  line-height: 1.5;
+}
