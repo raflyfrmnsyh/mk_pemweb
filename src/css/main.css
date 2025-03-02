@@ -247,7 +247,7 @@ main > .list_projects > .card_project {
     height: 100% !important;
   }
   .card_header > a {
-    width: 240px;
+    width: 200px;
     text-overflow: ellipsis;
     white-space: normal;
     overflow: hidden;
