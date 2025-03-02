@@ -229,9 +229,10 @@ main > .list_projects > .card_project {
 /* Responsive */
 @media only screen and (max-width: 992px) {
   .idx_header > img {
-    transform: translateX(20%) !important;
+    transform: translateX(12%) !important;
   }
   .container {
+    width: 96%;
     flex-direction: column;
   }
   .container > aside,
