@@ -33,7 +33,7 @@ const asignments_data = [
     title: "TP5_PEMWEB_FLEXBOX",
     description: "On progress...",
     due_date: "3 Mar 25",
-    path: "pages/tp5_responsive/biolink.html",
+    path: "pages/tp5_flexbox/menu.html",
   },
 ];
 
