@@ -30,8 +30,8 @@ const asignments_data = [
   },
   {
     id: 5,
-    title: "TP5_PEMWEB_RESPONSIVE_BIOLINK",
-    description: "Membuat halaman bio link menjadi responsive",
+    title: "TP5_PEMWEB_FLEXBOX",
+    description: "On progress...",
     due_date: "3 Mar 25",
     path: "pages/tp5_responsive/biolink.html",
   },
