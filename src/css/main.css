@@ -126,6 +126,10 @@ main > .list_projects > .card_project {
   font-weight: 600;
   color: #2a3335;
   font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 300px;
 }
 
 .card_header a:hover {
@@ -227,7 +231,7 @@ main > .list_projects > .card_project {
 }
 
 /* Responsive */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1324px) {
   .idx_header > img {
     transform: translateX(12%) !important;
   }

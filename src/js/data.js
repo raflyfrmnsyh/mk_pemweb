@@ -28,6 +28,13 @@ const asignments_data = [
     due_date: "24 Feb 25",
     path: "pages/tp4_styling/biolink.html",
   },
+  {
+    id: 5,
+    title: "TP5_PEMWEB_RESPONSIVE_BIOLINK",
+    description: "Membuat halaman bio link menjadi responsive",
+    due_date: "3 Mar 25",
+    path: "pages/tp5_responsive/biolink.html",
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", function () {
