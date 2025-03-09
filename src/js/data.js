@@ -31,7 +31,8 @@ const asignments_data = [
   {
     id: 5,
     title: "TP5_PEMWEB_FLEXBOX",
-    description: "On progress...",
+    description:
+      "Membuat layout navbar atau menu dengan flexbox dan membuat gallery gambar dengan grid",
     due_date: "3 Mar 25",
     path: "pages/tp5_flexbox/menu.html",
   },
